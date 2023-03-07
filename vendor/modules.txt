@@ -1,4 +1,4 @@
-# code.sajari.com/docconv v1.1.1-0.20200701232649-d9ea05fbd50a
+# code.sajari.com/docconv v1.3.5
 ## explicit
 code.sajari.com/docconv
 code.sajari.com/docconv/iWork
@@ -505,7 +505,6 @@ github.com/prometheus/client_golang/prometheus
 github.com/prometheus/client_golang/prometheus/internal
 github.com/prometheus/client_golang/prometheus/promhttp
 # github.com/prometheus/client_model v0.2.0
-## explicit
 github.com/prometheus/client_model/go
 # github.com/prometheus/common v0.25.0
 ## explicit
@@ -519,6 +518,11 @@ github.com/prometheus/procfs/internal/util
 # github.com/reflog/dateconstraints v0.2.1
 ## explicit
 github.com/reflog/dateconstraints
+# github.com/richardlehane/mscfb v1.0.3
+github.com/richardlehane/mscfb
+# github.com/richardlehane/msoleps v1.0.3
+github.com/richardlehane/msoleps
+github.com/richardlehane/msoleps/types
 # github.com/rivo/uniseg v0.2.0
 github.com/rivo/uniseg
 # github.com/rs/cors v1.7.0
@@ -783,8 +787,7 @@ golang.org/x/net/trace
 # golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20210601080250-7ecdf8ef093b
-## explicit
+# golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
 golang.org/x/sys/internal/unsafeheader
@@ -812,7 +815,7 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# golang.org/x/tools v0.1.2
+# golang.org/x/tools v0.1.5
 ## explicit
 golang.org/x/tools/go/ast/astutil
 golang.org/x/tools/go/gcexportdata
@@ -829,14 +832,14 @@ golang.org/x/tools/internal/gocommand
 golang.org/x/tools/internal/gopathwalk
 golang.org/x/tools/internal/imports
 golang.org/x/tools/internal/packagesinternal
+golang.org/x/tools/internal/typeparams
 golang.org/x/tools/internal/typesinternal
 # golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 golang.org/x/xerrors
 golang.org/x/xerrors/internal
-# google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
-## explicit
+# google.golang.org/genproto v0.0.0-20220207164111-0872dc986b00
 google.golang.org/genproto/googleapis/rpc/status
-# google.golang.org/grpc v1.38.0
+# google.golang.org/grpc v1.44.0
 google.golang.org/grpc
 google.golang.org/grpc/attributes
 google.golang.org/grpc/backoff
@@ -848,6 +851,7 @@ google.golang.org/grpc/binarylog/grpc_binarylog_v1
 google.golang.org/grpc/codes
 google.golang.org/grpc/connectivity
 google.golang.org/grpc/credentials
+google.golang.org/grpc/credentials/insecure
 google.golang.org/grpc/encoding
 google.golang.org/grpc/encoding/proto
 google.golang.org/grpc/grpclog
@@ -885,7 +889,7 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-# google.golang.org/protobuf v1.26.0
+# google.golang.org/protobuf v1.28.0
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/descfmt
